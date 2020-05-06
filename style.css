@@ -15,7 +15,8 @@ head, h1 {
 
 
   .topnav {
-    background-color: lavenderblush;
+      background-color: lavenderblush;
+      margin: 0 auto;
       overflow: hidden;
       width: 100%;
       float: left;
@@ -62,6 +63,10 @@ width: 60%;
   }
 
   
+.container {
+  max-width: 400px;
+}
+
 footer {
   float: left;
 }

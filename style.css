@@ -1,0 +1,63 @@
+head, h1 {
+    font-family: "Jazz LET", fantasy, serif;
+    font-size: 50px;
+      }
+  
+  body {
+    
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    background-color: #d3d3d3;
+background-image: linear-gradient(315deg, #d3d3d3 0%, #7f8c8d 74%);
+
+  }
+
+
+  .topnav {
+    background-color: lavenderblush;
+      overflow: hidden;
+      width: 100%;
+      float: left;
+      text-align: center;
+      padding: 20px;
+  }
+  
+  .topnav a {
+    float: inline-start;
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    max-width: 100px;
+    border: dashed;    
+  }
+  
+  .topnav a:hover {
+    background-color: black;
+    color: pink;
+  }
+  
+  .topnav a.active {
+    background-color: purple;
+    color: white;
+  }
+  
+  img {
+    padding: 20px;
+    margin: 20px;
+    opacity: 0.5;
+    width: 300px;
+  }
+  
+  form {
+    background-color: lavenderblush;
+    border-width: 0rem;
+    margin: 0 auto;
+position: relative;
+width: 60%;
+
+  }
+
+  

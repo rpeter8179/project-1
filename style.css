@@ -9,16 +9,18 @@ head, h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
     background-color: #c2b6b6;
     background-image: linear-gradient(315deg, #c2b6b6 0%, #576574 74%);
-    
+    padding: 60px;
 
   }
 
 
   .topnav {
       background-color: lavenderblush;
-      margin: 0 auto;
-      overflow: hidden;
-      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border: solid;
+      border-width: 1px;
+      border-radius: 10px;
       float: left;
       text-align: center;
       padding: 20px;
@@ -51,15 +53,17 @@ head, h1 {
     margin: 20px;
     opacity: 0.5;
     width: 300px;
+    max-width: 100%;
+  height: auto;
   }
   
   form {
     background-color: lavenderblush;
     border-width: 0rem;
     margin: 0 auto;
-position: relative;
-width: 60%;
-
+    position: relative;
+    width: 60%;
+    border: solid;
   }
 
   
@@ -67,4 +71,22 @@ width: 60%;
 
 footer {
   float: left;
+}
+
+@media only screen and (max-width: 320px) {
+  .topnav {
+    width: 100%
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .topnav {
+    width: 100%
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .topnav {
+    width: 100%
+  }
 }
